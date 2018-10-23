@@ -1,4 +1,5 @@
-![Documentation](./docs/badge.svg)
+![Documentation](./docs/badge.svg) ![Swift](https://img.shields.io/badge/swift-4.2-brightgreen.svg)
+
 
 # OrderPizzaSDK
 
