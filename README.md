@@ -1,4 +1,3 @@
-
 # Developer Friendly Pizza SDK!
 
 There are three projects:
