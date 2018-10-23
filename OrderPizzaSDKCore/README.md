@@ -1,3 +1,4 @@
+![Documentation](./docs/badge.svg)
 
 # OrderPizzaSDKCore
 

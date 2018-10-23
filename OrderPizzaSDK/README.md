@@ -1,6 +1,6 @@
-[![Documentation](./docs/badge.svg)]
+![Documentation](./docs/badge.svg)
 
-# OrderPizzaSDKCore
+# OrderPizzaSDK
 
 This is core framework for ordering Pizza. It does not have any UI specific code, so you can create your own UI using this framework.
 
