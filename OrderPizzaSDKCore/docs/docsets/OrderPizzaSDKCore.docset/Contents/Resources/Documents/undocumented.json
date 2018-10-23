@@ -1,0 +1,124 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDKCore/Sources/OrderPizzaSDKCore/OrderManager.swift",
+      "line": 49,
+      "symbol": "OrderManager.Error.notEnoughFlavors",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDKCore/Sources/OrderPizzaSDKCore/PizzaCrust.swift",
+      "line": 15,
+      "symbol": "PizzaCrustType.handTossed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDKCore/Sources/OrderPizzaSDKCore/PizzaCrust.swift",
+      "line": 16,
+      "symbol": "PizzaCrustType.wheatThinCrust",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDKCore/Sources/OrderPizzaSDKCore/PizzaCrust.swift",
+      "line": 17,
+      "symbol": "PizzaCrustType.cheeseBurst",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDKCore/Sources/OrderPizzaSDKCore/PizzaCrust.swift",
+      "line": 18,
+      "symbol": "PizzaCrustType.freshPanPizza",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDKCore/Sources/OrderPizzaSDKCore/PizzaCrust.swift",
+      "line": 65,
+      "symbol": "PizzaCrustSize.small",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDKCore/Sources/OrderPizzaSDKCore/PizzaCrust.swift",
+      "line": 66,
+      "symbol": "PizzaCrustSize.medium",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDKCore/Sources/OrderPizzaSDKCore/PizzaCrust.swift",
+      "line": 67,
+      "symbol": "PizzaCrustSize.large",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDKCore/Sources/OrderPizzaSDKCore/PizzaFlavor.swift",
+      "line": 15,
+      "symbol": "PizzaFlavor.pepperoni",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDKCore/Sources/OrderPizzaSDKCore/PizzaFlavor.swift",
+      "line": 16,
+      "symbol": "PizzaFlavor.mushrooms",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDKCore/Sources/OrderPizzaSDKCore/PizzaFlavor.swift",
+      "line": 17,
+      "symbol": "PizzaFlavor.onions",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDKCore/Sources/OrderPizzaSDKCore/PizzaFlavor.swift",
+      "line": 18,
+      "symbol": "PizzaFlavor.sausage",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDKCore/Sources/OrderPizzaSDKCore/PizzaFlavor.swift",
+      "line": 19,
+      "symbol": "PizzaFlavor.bacon",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDKCore/Sources/OrderPizzaSDKCore/PizzaFlavor.swift",
+      "line": 20,
+      "symbol": "PizzaFlavor.crispCapsicum",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDKCore/Sources/OrderPizzaSDKCore/PizzaFlavor.swift",
+      "line": 21,
+      "symbol": "PizzaFlavor.blackOlives",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDKCore/Sources/OrderPizzaSDKCore/PizzaFlavor.swift",
+      "line": 22,
+      "symbol": "PizzaFlavor.greenPeppers",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDKCore/Sources/OrderPizzaSDKCore/PizzaFlavor.swift",
+      "line": 23,
+      "symbol": "PizzaFlavor.goldenCorn",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDKCore"
+}

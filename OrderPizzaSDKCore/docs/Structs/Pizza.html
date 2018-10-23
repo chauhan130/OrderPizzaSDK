@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pizza Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/Pizza" class="dashAnchor"></a>
+    <a title="Pizza Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">OrderPizzaSDKCore Docs</a> (68% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">OrderPizzaSDKCore Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        Pizza Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/OrderManager.html">OrderManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderManager/Result.html">– Result</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderManager/Error.html">– Error</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/PizzaCrustSize.html">PizzaCrustSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PizzaCrustType.html">PizzaCrustType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PizzaFlavor.html">PizzaFlavor</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Pizza.html">Pizza</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PizzaCrust.html">PizzaCrust</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Pizza</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Pizza</span> <span class="p">:</span> <span class="kt">CustomStringConvertible</span></code></pre>
+
+                </div>
+              </div>
+            <p>The basic 🍕 model, that represents the pizza size (i.e. Small/Medium/Large), crust, and possible flavors.
+It returns pizza full description &amp; price to make the job easy.
+The <code>Pizza</code> model is <code>CustomStringConvertible</code>, so it returns the full name of the pizza.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17OrderPizzaSDKCore0B0V15flavorsIncludedSayAA0B6FlavorOGvp"></a>
+                    <a name="//apple_ref/swift/Property/flavorsIncluded" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17OrderPizzaSDKCore0B0V15flavorsIncludedSayAA0B6FlavorOGvp">flavorsIncluded</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The list of the flavors those have been included in this pizza. (Read Only)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">flavorsIncluded</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Enums/PizzaFlavor.html">PizzaFlavor</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17OrderPizzaSDKCore0B0V5crustAA0B5CrustVvp"></a>
+                    <a name="//apple_ref/swift/Property/crust" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17OrderPizzaSDKCore0B0V5crustAA0B5CrustVvp">crust</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The instance representing the crust type and the size of the pizza.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">crust</span><span class="p">:</span> <span class="kt"><a href="../Structs/PizzaCrust.html">PizzaCrust</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17OrderPizzaSDKCore0B0V21maximumFlavorsAllowedSivpZ"></a>
+                    <a name="//apple_ref/swift/Variable/maximumFlavorsAllowed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17OrderPizzaSDKCore0B0V21maximumFlavorsAllowedSivpZ">maximumFlavorsAllowed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Number of flavors allowed in one pizza.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">maximumFlavorsAllowed</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17OrderPizzaSDKCore0B0V5crustAcA0B5CrustV_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(crust:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17OrderPizzaSDKCore0B0V5crustAcA0B5CrustV_tcfc">init(crust:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The basic pizza initializer.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">crust</span><span class="p">:</span> <span class="kt"><a href="../Structs/PizzaCrust.html">PizzaCrust</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>crust</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Structs/PizzaCrust.html">PizzaCrust</a></code> instance .</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17OrderPizzaSDKCore0B0V3add6flavorSbAA0B6FlavorO_tF"></a>
+                    <a name="//apple_ref/swift/Method/add(flavor:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17OrderPizzaSDKCore0B0V3add6flavorSbAA0B6FlavorO_tF">add(flavor:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Adds the specified flavor to this pizza.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">mutating</span> <span class="kd">func</span> <span class="nf">add</span><span class="p">(</span><span class="nv">flavor</span><span class="p">:</span> <span class="kt"><a href="../Enums/PizzaFlavor.html">PizzaFlavor</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>flavor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Enums/PizzaFlavor.html">PizzaFlavor</a></code> to be added.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code>true</code> if the pizza was added successfully. Returns <code>false</code> if there are maximum flavors included already.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17OrderPizzaSDKCore0B0V6remove6flavorSbAA0B6FlavorO_tF"></a>
+                    <a name="//apple_ref/swift/Method/remove(flavor:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17OrderPizzaSDKCore0B0V6remove6flavorSbAA0B6FlavorO_tF">remove(flavor:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Removes specified flavor from this pizza.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">mutating</span> <span class="kd">func</span> <span class="nf">remove</span><span class="p">(</span><span class="nv">flavor</span><span class="p">:</span> <span class="kt"><a href="../Enums/PizzaFlavor.html">PizzaFlavor</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>flavor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Enums/PizzaFlavor.html">PizzaFlavor</a></code> to be removed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code>true</code> if the the flavor is found and removed. <code>false</code> if the flavor is not added at all.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17OrderPizzaSDKCore0B0V10totalPriceSfyF"></a>
+                    <a name="//apple_ref/swift/Method/totalPrice()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17OrderPizzaSDKCore0B0V10totalPriceSfyF">totalPrice()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns total price of the pizza, considering all the features.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">totalPrice</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Float</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17OrderPizzaSDKCore0B0V4nameSSyF"></a>
+                    <a name="//apple_ref/swift/Method/name()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17OrderPizzaSDKCore0B0V4nameSSyF">name()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Full description of the pizza along with included flavors..</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">name</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17OrderPizzaSDKCore0B0V11descriptionSSvp"></a>
+                    <a name="//apple_ref/swift/Property/description" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17OrderPizzaSDKCore0B0V11descriptionSSvp">description</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The description of the pizza.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">description</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/chauhan130/" target="_blank" rel="external">Sunil Chauhan</a>. All rights reserved. (Last updated: 2018-10-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

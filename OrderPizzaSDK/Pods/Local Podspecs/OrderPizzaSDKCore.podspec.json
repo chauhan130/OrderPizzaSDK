@@ -1,0 +1,20 @@
+{
+  "name": "OrderPizzaSDKCore",
+  "version": "0.1.0",
+  "license": "MIT",
+  "summary": "Pizza ordering core SDK.",
+  "description": "This is intended to be used across iOS, Mac OS, Watch OS, & TV OS in future.",
+  "homepage": "https://github.com/chauhan130/OrderPizzaSDKCore",
+  "social_media_url": "http://twitter.com/chauhan130",
+  "authors": {
+    "Sunil Chauhan": "chauhan130@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/chauhan130/OrderPizzaSDKCore.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Sources/**/*"
+}

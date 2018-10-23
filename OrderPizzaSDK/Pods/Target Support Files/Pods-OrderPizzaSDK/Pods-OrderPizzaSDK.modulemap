@@ -1,0 +1,6 @@
+framework module Pods_OrderPizzaSDK {
+  umbrella header "Pods-OrderPizzaSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

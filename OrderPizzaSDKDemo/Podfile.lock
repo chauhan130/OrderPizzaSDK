@@ -1,0 +1,22 @@
+PODS:
+  - OrderPizzaSDK (0.1.0):
+    - OrderPizzaSDKCore
+  - OrderPizzaSDKCore (0.1.0)
+
+DEPENDENCIES:
+  - OrderPizzaSDK (from `../OrderPizzaSDK/`)
+  - OrderPizzaSDKCore (from `../OrderPizzaSDKCore/`)
+
+EXTERNAL SOURCES:
+  OrderPizzaSDK:
+    :path: "../OrderPizzaSDK/"
+  OrderPizzaSDKCore:
+    :path: "../OrderPizzaSDKCore/"
+
+SPEC CHECKSUMS:
+  OrderPizzaSDK: c55c66f2a11e29906314817812169c15e60b56d5
+  OrderPizzaSDKCore: 81a5869fb1f7dd8c8d90060b3520e4def9f73afa
+
+PODFILE CHECKSUM: b73777b923550a111418af31f0f3519c745a3896
+
+COCOAPODS: 1.5.0

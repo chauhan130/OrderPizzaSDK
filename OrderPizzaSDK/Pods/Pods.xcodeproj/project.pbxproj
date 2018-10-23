@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02DCD3D32314F1CC7031E6D42286949D /* OrderPizzaSDKCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52299BFB4C9A8CF4107B3E8BA3EA9800 /* OrderPizzaSDKCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		052818D25DE81A984FDADD3B43D33729 /* Pods-OrderPizzaSDKTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F360A40BB1265172556245E583A2161B /* Pods-OrderPizzaSDKTests-dummy.m */; };
+		14EE964FFDEBB8443852FA6F7630053E /* PizzaFlavor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC600E010464294AE435EE9B53C8AA9 /* PizzaFlavor.swift */; };
+		1C6FE318457907303D17DA81597C8E25 /* Pods-OrderPizzaSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F0D3EA3593C40B7BB60A64CBC80BAE /* Pods-OrderPizzaSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		322660CCB94C03C06C755F21252F1BE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		48DDEB586658668B5E23CADB4A6A1661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		964629D88CAEA80948BF2F375BBAA4A4 /* Pods-OrderPizzaSDKTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1388D9272DDDE944DC32D732040CA6 /* Pods-OrderPizzaSDKTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A622A77FEAD315651EAD40D20DF6BE52 /* OrderPizzaSDKCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C5BE10374124DE3A62CF1FDA09D4F6 /* OrderPizzaSDKCore-dummy.m */; };
+		C64C564E0AFDD688C59F57A9C65EB3E2 /* Pods-OrderPizzaSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09466EB4B36D6BC75680D38A02D69DD8 /* Pods-OrderPizzaSDK-dummy.m */; };
+		D071D6F0CCF01628011F86369151B820 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E95677A967E78ADA0CD4E1711EC8760E /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5562305C14B7A5875687A38318D0EC86 /* Pizza.swift */; };
+		EB26E6D31237695056A0C2184C88ECD0 /* OrderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAFAAFC54818792F895BD10DB823EF1 /* OrderManager.swift */; };
+		F286AE977193D18B9464FED543612F95 /* PizzaCrust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA28B7716A68C672EC0E32416C5950 /* PizzaCrust.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42B91955C9C364EB6BE4F4E9E45208BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B084BDF024AFF1247A3D930EC7C1FA35;
+			remoteInfo = OrderPizzaSDKCore;
+		};
+		5A3F0CADD9D08640E5C6EA654AD9D266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 325AE0C4462D8816C78CF4F35BD5CB8D;
+			remoteInfo = "Pods-OrderPizzaSDK";
+		};
+		F4EE2BFD333C78EA26D5300163456ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B084BDF024AFF1247A3D930EC7C1FA35;
+			remoteInfo = OrderPizzaSDKCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09466EB4B36D6BC75680D38A02D69DD8 /* Pods-OrderPizzaSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OrderPizzaSDK-dummy.m"; sourceTree = "<group>"; };
+		1078968FD4CA0787E008882B9A570D65 /* Pods_OrderPizzaSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OrderPizzaSDKTests.framework; path = "Pods-OrderPizzaSDKTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B7381568A8CBAEDE713257FC6FE7EF /* OrderPizzaSDKCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrderPizzaSDKCore.xcconfig; sourceTree = "<group>"; };
+		19F0D3EA3593C40B7BB60A64CBC80BAE /* Pods-OrderPizzaSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OrderPizzaSDK-umbrella.h"; sourceTree = "<group>"; };
+		20FC18E577D0D0E339D175C4084F0D39 /* OrderPizzaSDKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OrderPizzaSDKCore.framework; path = OrderPizzaSDKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EAFAAFC54818792F895BD10DB823EF1 /* OrderManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderManager.swift; path = Sources/OrderPizzaSDKCore/OrderManager.swift; sourceTree = "<group>"; };
+		34BF15169AD350E470CDE9D59C86E707 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		433AB5B15EBE930CD339FB8708FC6E2C /* Pods-OrderPizzaSDKTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OrderPizzaSDKTests-frameworks.sh"; sourceTree = "<group>"; };
+		50DFA8906F4AA05F5E4AF8AAF8AE3ED1 /* Pods-OrderPizzaSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OrderPizzaSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52299BFB4C9A8CF4107B3E8BA3EA9800 /* OrderPizzaSDKCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrderPizzaSDKCore-umbrella.h"; sourceTree = "<group>"; };
+		5562305C14B7A5875687A38318D0EC86 /* Pizza.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pizza.swift; path = Sources/OrderPizzaSDKCore/Pizza.swift; sourceTree = "<group>"; };
+		5E7DB4B17D2AFED75504C68776647D64 /* Pods-OrderPizzaSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrderPizzaSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FBA28B7716A68C672EC0E32416C5950 /* PizzaCrust.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PizzaCrust.swift; path = Sources/OrderPizzaSDKCore/PizzaCrust.swift; sourceTree = "<group>"; };
+		63D7C93AF0F93190CA98847AB8A92098 /* OrderPizzaSDKCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = OrderPizzaSDKCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6FB0E223206CF595FB7733A6D87C813F /* Pods-OrderPizzaSDKTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OrderPizzaSDKTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91C5BE10374124DE3A62CF1FDA09D4F6 /* OrderPizzaSDKCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OrderPizzaSDKCore-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		973FFA55938DA551B300E575DF07F089 /* OrderPizzaSDKCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrderPizzaSDKCore-prefix.pch"; sourceTree = "<group>"; };
+		9CC29B6840544FBD8FBFAB5DC55056B7 /* Pods-OrderPizzaSDK-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OrderPizzaSDK-resources.sh"; sourceTree = "<group>"; };
+		9D1388D9272DDDE944DC32D732040CA6 /* Pods-OrderPizzaSDKTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OrderPizzaSDKTests-umbrella.h"; sourceTree = "<group>"; };
+		9DC600E010464294AE435EE9B53C8AA9 /* PizzaFlavor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PizzaFlavor.swift; path = Sources/OrderPizzaSDKCore/PizzaFlavor.swift; sourceTree = "<group>"; };
+		AA94E1CC5F306F8E0BC18A2C7E61936C /* Pods-OrderPizzaSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrderPizzaSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		B3297B1B0E2D69DA09EA6776158949B8 /* Pods-OrderPizzaSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OrderPizzaSDK.modulemap"; sourceTree = "<group>"; };
+		B68961E7B31224CE196F4601D49FAA1B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8A0A9678456A441788AF0DC33EB18B6 /* Pods-OrderPizzaSDKTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OrderPizzaSDKTests-resources.sh"; sourceTree = "<group>"; };
+		C29DD9CC6846BFB79EEB1D9282365CAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A623A08D1958AC5387457EF77A3CB3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CBCD8809095F785D0D16C1A22704C2AE /* Pods-OrderPizzaSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrderPizzaSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		D2D741DC74B8E05B040785177E795749 /* OrderPizzaSDKCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OrderPizzaSDKCore.modulemap; sourceTree = "<group>"; };
+		D7738AD1ABC7FCCC48ADA194FEBBA2F6 /* Pods-OrderPizzaSDKTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OrderPizzaSDKTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF34BEBDDA24F5B708C08F110A702B8D /* Pods-OrderPizzaSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrderPizzaSDK.release.xcconfig"; sourceTree = "<group>"; };
+		E588DAC0A98C7E4F4789BCB1BDF284AB /* Pods-OrderPizzaSDKTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OrderPizzaSDKTests.modulemap"; sourceTree = "<group>"; };
+		E83F182669EE6625ACAC68BAAB3F74CB /* Pods-OrderPizzaSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OrderPizzaSDK-acknowledgements.plist"; sourceTree = "<group>"; };
+		F360A40BB1265172556245E583A2161B /* Pods-OrderPizzaSDKTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OrderPizzaSDKTests-dummy.m"; sourceTree = "<group>"; };
+		F8845947592855C0DAD4E0C462301F3C /* Pods_OrderPizzaSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OrderPizzaSDK.framework; path = "Pods-OrderPizzaSDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C1F75184F4B7CEFF2799290A5EA7CA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D071D6F0CCF01628011F86369151B820 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15CAB6396AD20AA50B98F751FD2C61E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DDEB586658668B5E23CADB4A6A1661 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5FC8BC347983EFA87DB3E4B5DCA68B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322660CCB94C03C06C755F21252F1BE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02E1219DE380D82CDCD7C089EBB312B4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E52D4C36BBB6B4A374909BF1762CD03 /* OrderPizzaSDKCore */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0BAB2413F8A5C29EB62952CDDFF235DE /* Pods-OrderPizzaSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				C29DD9CC6846BFB79EEB1D9282365CAE /* Info.plist */,
+				E588DAC0A98C7E4F4789BCB1BDF284AB /* Pods-OrderPizzaSDKTests.modulemap */,
+				6FB0E223206CF595FB7733A6D87C813F /* Pods-OrderPizzaSDKTests-acknowledgements.markdown */,
+				D7738AD1ABC7FCCC48ADA194FEBBA2F6 /* Pods-OrderPizzaSDKTests-acknowledgements.plist */,
+				F360A40BB1265172556245E583A2161B /* Pods-OrderPizzaSDKTests-dummy.m */,
+				433AB5B15EBE930CD339FB8708FC6E2C /* Pods-OrderPizzaSDKTests-frameworks.sh */,
+				B8A0A9678456A441788AF0DC33EB18B6 /* Pods-OrderPizzaSDKTests-resources.sh */,
+				9D1388D9272DDDE944DC32D732040CA6 /* Pods-OrderPizzaSDKTests-umbrella.h */,
+				5E7DB4B17D2AFED75504C68776647D64 /* Pods-OrderPizzaSDKTests.debug.xcconfig */,
+				AA94E1CC5F306F8E0BC18A2C7E61936C /* Pods-OrderPizzaSDKTests.release.xcconfig */,
+			);
+			name = "Pods-OrderPizzaSDKTests";
+			path = "Target Support Files/Pods-OrderPizzaSDKTests";
+			sourceTree = "<group>";
+		};
+		2F9E22DF609AF1C95C542ABBC950DF09 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				63D7C93AF0F93190CA98847AB8A92098 /* OrderPizzaSDKCore.podspec */,
+				C9A623A08D1958AC5387457EF77A3CB3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5BDA759007CAC6874F729AF023EEA3FB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				755DD36EB719F3ED599CC833BA7B9F0A /* Pods-OrderPizzaSDK */,
+				0BAB2413F8A5C29EB62952CDDFF235DE /* Pods-OrderPizzaSDKTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		755DD36EB719F3ED599CC833BA7B9F0A /* Pods-OrderPizzaSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B68961E7B31224CE196F4601D49FAA1B /* Info.plist */,
+				B3297B1B0E2D69DA09EA6776158949B8 /* Pods-OrderPizzaSDK.modulemap */,
+				50DFA8906F4AA05F5E4AF8AAF8AE3ED1 /* Pods-OrderPizzaSDK-acknowledgements.markdown */,
+				E83F182669EE6625ACAC68BAAB3F74CB /* Pods-OrderPizzaSDK-acknowledgements.plist */,
+				09466EB4B36D6BC75680D38A02D69DD8 /* Pods-OrderPizzaSDK-dummy.m */,
+				9CC29B6840544FBD8FBFAB5DC55056B7 /* Pods-OrderPizzaSDK-resources.sh */,
+				19F0D3EA3593C40B7BB60A64CBC80BAE /* Pods-OrderPizzaSDK-umbrella.h */,
+				CBCD8809095F785D0D16C1A22704C2AE /* Pods-OrderPizzaSDK.debug.xcconfig */,
+				DF34BEBDDA24F5B708C08F110A702B8D /* Pods-OrderPizzaSDK.release.xcconfig */,
+			);
+			name = "Pods-OrderPizzaSDK";
+			path = "Target Support Files/Pods-OrderPizzaSDK";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				02E1219DE380D82CDCD7C089EBB312B4 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FFB536E16D28AA397770BC620184A920 /* Products */,
+				5BDA759007CAC6874F729AF023EEA3FB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9E52D4C36BBB6B4A374909BF1762CD03 /* OrderPizzaSDKCore */ = {
+			isa = PBXGroup;
+			children = (
+				2EAFAAFC54818792F895BD10DB823EF1 /* OrderManager.swift */,
+				5562305C14B7A5875687A38318D0EC86 /* Pizza.swift */,
+				5FBA28B7716A68C672EC0E32416C5950 /* PizzaCrust.swift */,
+				9DC600E010464294AE435EE9B53C8AA9 /* PizzaFlavor.swift */,
+				2F9E22DF609AF1C95C542ABBC950DF09 /* Pod */,
+				B0E2D9F4A96BB3B4948F77CB5ADFF461 /* Support Files */,
+			);
+			name = OrderPizzaSDKCore;
+			path = ../../OrderPizzaSDKCore;
+			sourceTree = "<group>";
+		};
+		B0E2D9F4A96BB3B4948F77CB5ADFF461 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34BF15169AD350E470CDE9D59C86E707 /* Info.plist */,
+				D2D741DC74B8E05B040785177E795749 /* OrderPizzaSDKCore.modulemap */,
+				13B7381568A8CBAEDE713257FC6FE7EF /* OrderPizzaSDKCore.xcconfig */,
+				91C5BE10374124DE3A62CF1FDA09D4F6 /* OrderPizzaSDKCore-dummy.m */,
+				973FFA55938DA551B300E575DF07F089 /* OrderPizzaSDKCore-prefix.pch */,
+				52299BFB4C9A8CF4107B3E8BA3EA9800 /* OrderPizzaSDKCore-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../OrderPizzaSDK/Pods/Target Support Files/OrderPizzaSDKCore";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FFB536E16D28AA397770BC620184A920 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20FC18E577D0D0E339D175C4084F0D39 /* OrderPizzaSDKCore.framework */,
+				F8845947592855C0DAD4E0C462301F3C /* Pods_OrderPizzaSDK.framework */,
+				1078968FD4CA0787E008882B9A570D65 /* Pods_OrderPizzaSDKTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		79630CD4B5574190305E847FE0ACF8B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6FE318457907303D17DA81597C8E25 /* Pods-OrderPizzaSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC07039A08E8DA711E8273898CFEE48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DCD3D32314F1CC7031E6D42286949D /* OrderPizzaSDKCore-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD127E6088C249525D75473B86D0AAD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964629D88CAEA80948BF2F375BBAA4A4 /* Pods-OrderPizzaSDKTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		325AE0C4462D8816C78CF4F35BD5CB8D /* Pods-OrderPizzaSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64AF9DA3A34F1FF28B5289F12D07D96E /* Build configuration list for PBXNativeTarget "Pods-OrderPizzaSDK" */;
+			buildPhases = (
+				5CB1FB9C0654F219613AA59779AF25DC /* Sources */,
+				B15CAB6396AD20AA50B98F751FD2C61E /* Frameworks */,
+				79630CD4B5574190305E847FE0ACF8B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25729E58EA88D4A773224CA0AAE80C64 /* PBXTargetDependency */,
+			);
+			name = "Pods-OrderPizzaSDK";
+			productName = "Pods-OrderPizzaSDK";
+			productReference = F8845947592855C0DAD4E0C462301F3C /* Pods_OrderPizzaSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C86C560EB42A37F52F440CE0FD3DEAF /* Pods-OrderPizzaSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4148B3F53C020F6347251C075AF5BDEE /* Build configuration list for PBXNativeTarget "Pods-OrderPizzaSDKTests" */;
+			buildPhases = (
+				6D4BD7302F8E25D47AF1E91C9D085056 /* Sources */,
+				1C1F75184F4B7CEFF2799290A5EA7CA6 /* Frameworks */,
+				DD127E6088C249525D75473B86D0AAD1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A01A85976315F799A7E8334F3C475349 /* PBXTargetDependency */,
+				C9B1C75895733FEB38CC01D368DEAF30 /* PBXTargetDependency */,
+			);
+			name = "Pods-OrderPizzaSDKTests";
+			productName = "Pods-OrderPizzaSDKTests";
+			productReference = 1078968FD4CA0787E008882B9A570D65 /* Pods_OrderPizzaSDKTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B084BDF024AFF1247A3D930EC7C1FA35 /* OrderPizzaSDKCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA89C50C70F9AB56B8B01DED6BB1097 /* Build configuration list for PBXNativeTarget "OrderPizzaSDKCore" */;
+			buildPhases = (
+				5D9BDC011D319E715435BA369FA7AEBD /* Sources */,
+				B5FC8BC347983EFA87DB3E4B5DCA68B3 /* Frameworks */,
+				AEC07039A08E8DA711E8273898CFEE48 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderPizzaSDKCore;
+			productName = OrderPizzaSDKCore;
+			productReference = 20FC18E577D0D0E339D175C4084F0D39 /* OrderPizzaSDKCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FFB536E16D28AA397770BC620184A920 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B084BDF024AFF1247A3D930EC7C1FA35 /* OrderPizzaSDKCore */,
+				325AE0C4462D8816C78CF4F35BD5CB8D /* Pods-OrderPizzaSDK */,
+				8C86C560EB42A37F52F440CE0FD3DEAF /* Pods-OrderPizzaSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CB1FB9C0654F219613AA59779AF25DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64C564E0AFDD688C59F57A9C65EB3E2 /* Pods-OrderPizzaSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9BDC011D319E715435BA369FA7AEBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB26E6D31237695056A0C2184C88ECD0 /* OrderManager.swift in Sources */,
+				A622A77FEAD315651EAD40D20DF6BE52 /* OrderPizzaSDKCore-dummy.m in Sources */,
+				E95677A967E78ADA0CD4E1711EC8760E /* Pizza.swift in Sources */,
+				F286AE977193D18B9464FED543612F95 /* PizzaCrust.swift in Sources */,
+				14EE964FFDEBB8443852FA6F7630053E /* PizzaFlavor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4BD7302F8E25D47AF1E91C9D085056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052818D25DE81A984FDADD3B43D33729 /* Pods-OrderPizzaSDKTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25729E58EA88D4A773224CA0AAE80C64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OrderPizzaSDKCore;
+			target = B084BDF024AFF1247A3D930EC7C1FA35 /* OrderPizzaSDKCore */;
+			targetProxy = 42B91955C9C364EB6BE4F4E9E45208BE /* PBXContainerItemProxy */;
+		};
+		A01A85976315F799A7E8334F3C475349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OrderPizzaSDKCore;
+			target = B084BDF024AFF1247A3D930EC7C1FA35 /* OrderPizzaSDKCore */;
+			targetProxy = F4EE2BFD333C78EA26D5300163456ECB /* PBXContainerItemProxy */;
+		};
+		C9B1C75895733FEB38CC01D368DEAF30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OrderPizzaSDK";
+			target = 325AE0C4462D8816C78CF4F35BD5CB8D /* Pods-OrderPizzaSDK */;
+			targetProxy = 5A3F0CADD9D08640E5C6EA654AD9D266 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		962A00FB98786E17E5E5CB3D92D0ED1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E7DB4B17D2AFED75504C68776647D64 /* Pods-OrderPizzaSDKTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OrderPizzaSDKTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OrderPizzaSDKTests/Pods-OrderPizzaSDKTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A706D95C1C4006BF9A932CFDAE97DD3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF34BEBDDA24F5B708C08F110A702B8D /* Pods-OrderPizzaSDK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OrderPizzaSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OrderPizzaSDK/Pods-OrderPizzaSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C1ECB575ECD2BE416DD6C8D01061C222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13B7381568A8CBAEDE713257FC6FE7EF /* OrderPizzaSDKCore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OrderPizzaSDKCore/OrderPizzaSDKCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OrderPizzaSDKCore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OrderPizzaSDKCore/OrderPizzaSDKCore.modulemap";
+				PRODUCT_MODULE_NAME = OrderPizzaSDKCore;
+				PRODUCT_NAME = OrderPizzaSDKCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD8324D57CD462761E218EEA4EA91EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DDDFF309AC942E50B84B2F8B857A16BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA94E1CC5F306F8E0BC18A2C7E61936C /* Pods-OrderPizzaSDKTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OrderPizzaSDKTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OrderPizzaSDKTests/Pods-OrderPizzaSDKTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1330E0326D59542C6BCF1FA15318761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13B7381568A8CBAEDE713257FC6FE7EF /* OrderPizzaSDKCore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OrderPizzaSDKCore/OrderPizzaSDKCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OrderPizzaSDKCore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OrderPizzaSDKCore/OrderPizzaSDKCore.modulemap";
+				PRODUCT_MODULE_NAME = OrderPizzaSDKCore;
+				PRODUCT_NAME = OrderPizzaSDKCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1973AADC62DE4E66CDF31642F6D88B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBCD8809095F785D0D16C1A22704C2AE /* Pods-OrderPizzaSDK.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OrderPizzaSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OrderPizzaSDK/Pods-OrderPizzaSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */,
+				CD8324D57CD462761E218EEA4EA91EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4148B3F53C020F6347251C075AF5BDEE /* Build configuration list for PBXNativeTarget "Pods-OrderPizzaSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962A00FB98786E17E5E5CB3D92D0ED1A /* Debug */,
+				DDDFF309AC942E50B84B2F8B857A16BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64AF9DA3A34F1FF28B5289F12D07D96E /* Build configuration list for PBXNativeTarget "Pods-OrderPizzaSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1973AADC62DE4E66CDF31642F6D88B8 /* Debug */,
+				A706D95C1C4006BF9A932CFDAE97DD3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA89C50C70F9AB56B8B01DED6BB1097 /* Build configuration list for PBXNativeTarget "OrderPizzaSDKCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1330E0326D59542C6BCF1FA15318761 /* Debug */,
+				C1ECB575ECD2BE416DD6C8D01061C222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

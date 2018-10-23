@@ -1,0 +1,26 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDK/Sources/OrderPizzaSDK/Cells/PizzaDetailCell.swift",
+      "line": 15,
+      "symbol": "Reusable.reuseIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDK/Sources/OrderPizzaSDK/Cells/PizzaDetailCell.swift",
+      "line": 19,
+      "symbol": "Reusable.reuseIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDK/Sources/OrderPizzaSDK/PizzaOrderManager.swift",
+      "line": 42,
+      "symbol": "PizzaOrderManager.OrderCompletion",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/sunilchauhan/Documents/Apps/Developer-friendly Pizza/OrderPizzaSDK"
+}

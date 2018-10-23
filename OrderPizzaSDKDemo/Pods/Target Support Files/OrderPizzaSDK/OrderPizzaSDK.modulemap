@@ -1,0 +1,6 @@
+framework module OrderPizzaSDK {
+  umbrella header "OrderPizzaSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07753753611CA9482D44D61466DCAC1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97C198629F3D8DD4701BB6B4B66C7606 /* Foundation.framework */; };
+		0E0CB923869C14C251DA28B79237AEE8 /* PizzaSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559B21411D7D74FABA9BE996FC82E522 /* PizzaSections.swift */; };
+		1C95D05B96D04447781FD398B56EE5A2 /* OrderPizzaSDKCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A536A521161EACBA6CAF431DA2990C /* OrderPizzaSDKCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0F129ED4D34E453D85F5201064D28E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97C198629F3D8DD4701BB6B4B66C7606 /* Foundation.framework */; };
+		22AF8005C51F4EAFD3A092A39EA2290B /* ListPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C56935D8D113DE0D0CE277AD91F8C /* ListPickerViewController.swift */; };
+		253066AEFABE00B3DE3D3DAADDCCE87F /* ListPickerItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A7B5A312E5C7D8122302C9570F3583 /* ListPickerItemCell.swift */; };
+		433FFEC251290065DF17B339244E6A43 /* OrderPizzaSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F4E7121575EDE0DCAB5F0436A8FB25 /* OrderPizzaSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45FFBD9DAE79427E606BEA8E6B2F012A /* OrderPizzaSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539B0D1FF1F45801C1A1E0DDA45C5932 /* OrderPizzaSDKCore.framework */; };
+		565FDEC87C6EE03F19DB81C792F2D2B3 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE31363B2BD688A9EB29CD56F022BB2 /* Pizza.swift */; };
+		61F55B5C96BDF85DDBF14FA148601CF0 /* Pods-OrderPizzaSDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5361FB779CF37F956E25A1BAC19A45 /* Pods-OrderPizzaSDKDemo-dummy.m */; };
+		7A69E948E9FE58297BC90562254752C8 /* PriceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AEDCA7F228CD37BFBDCA7D89CF3CBC /* PriceCell.swift */; };
+		7FE6BE338AEC0CA81CFECFE878EDF498 /* Pods-OrderPizzaSDKDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F96A7EC5E4BA7A140549D0F52F5DE396 /* Pods-OrderPizzaSDKDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A3B8248E36329DD762682A0CB87F01E /* PizzaCrust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FAA79946AC1343B464C73D427DF80D /* PizzaCrust.swift */; };
+		A2C1F753C1C0F2F67A888FA64D70FE54 /* PizzaFlavor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66395A46250FB77277772C97D4597CE8 /* PizzaFlavor.swift */; };
+		C378A1D0AD10F8A4692C6F0B577C0740 /* PizzaEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647291C78BE5D38824D6CD4FAF853889 /* PizzaEditCell.swift */; };
+		E25794713615BF025ECF7F20A69199B5 /* OrderPizzaSDKCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5781DE2476F2B7CF221D3DFDDEA16B2B /* OrderPizzaSDKCore-dummy.m */; };
+		E3BB329F5562CF3565790A1662943253 /* PizzaDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213CE934C520EA670EA8515E59CD9A85 /* PizzaDetailCell.swift */; };
+		E89013647663F285E89390E41CFF9B9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97C198629F3D8DD4701BB6B4B66C7606 /* Foundation.framework */; };
+		EE1C75CB3225C2D002EB06689CFF5A02 /* OrderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD09CA4954BD6CDF2C827929642EA30 /* OrderManager.swift */; };
+		F52A543AC5A2063E96CF426AF4FB8F98 /* OrderPizzaSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5E74750859669CD5E5A08F9A8011DB /* OrderPizzaSDK-dummy.m */; };
+		F54CEEEF560FFE23BD8A493ADFFC7CBB /* PizzaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FAFE7FB4813C350636C7C986B3B7C /* PizzaViewController.swift */; };
+		F6AA21392D965EC86F49864EB98C1402 /* PizzaOrderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008172AA91E08075910EC66D7C0311A5 /* PizzaOrderManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		003324E0FB48EEC95D85AF90F6B67951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6C7725ECB6AC0EEF961BBACC59692EF;
+			remoteInfo = OrderPizzaSDKCore;
+		};
+		2BE1CC4C7FE19607A67A8CB7BA3A5A95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8759DC8FCE7892307A9CE713C104183;
+			remoteInfo = OrderPizzaSDK;
+		};
+		F2DD924F20E7419C59A428DD5829C9BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6C7725ECB6AC0EEF961BBACC59692EF;
+			remoteInfo = OrderPizzaSDKCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008172AA91E08075910EC66D7C0311A5 /* PizzaOrderManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PizzaOrderManager.swift; path = Sources/OrderPizzaSDK/PizzaOrderManager.swift; sourceTree = "<group>"; };
+		037907DBFC6F73FC7A22B4C2A7A6D922 /* Error.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Error.html; path = docs/Classes/OrderManager/Error.html; sourceTree = "<group>"; };
+		05F4C3D2C32A2465B3C33EC82CC8B58E /* PizzaFlavor.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = PizzaFlavor.html; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/Enums/PizzaFlavor.html; sourceTree = "<group>"; };
+		0A4A2957745B15781AA1FC635130B127 /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/docsets/OrderPizzaSDK.docset/Contents/Resources/Documents/img/carat.png; sourceTree = "<group>"; };
+		0AD09CA4954BD6CDF2C827929642EA30 /* OrderManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderManager.swift; path = Sources/OrderPizzaSDKCore/OrderManager.swift; sourceTree = "<group>"; };
+		0CA73A5EE975AA4BDC7E3CF848CC9707 /* docSet.dsidx */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = docSet.dsidx; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/docSet.dsidx; sourceTree = "<group>"; };
+		0E4E2AB9B194BC68BA742FC8076AD535 /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Classes.html; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/Classes.html; sourceTree = "<group>"; };
+		123893B78497372E5C1FC4D49958D2F3 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = docs/js/jquery.min.js; sourceTree = "<group>"; };
+		14AEDCA7F228CD37BFBDCA7D89CF3CBC /* PriceCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PriceCell.swift; sourceTree = "<group>"; };
+		1943708B0820FC66A739AC523B3AD173 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
+		1C0E17E567009F3CC8FA695FC157C5E1 /* Error.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Error.html; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/Classes/OrderManager/Error.html; sourceTree = "<group>"; };
+		213CE934C520EA670EA8515E59CD9A85 /* PizzaDetailCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PizzaDetailCell.swift; sourceTree = "<group>"; };
+		2234EFB757DBC2E10005B3C3EDE6F1EE /* OrderPizzaSDKCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrderPizzaSDKCore-prefix.pch"; sourceTree = "<group>"; };
+		226E8EC5D96F221CBCA076A2E4BDA8FA /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = highlight.css; path = docs/docsets/OrderPizzaSDK.docset/Contents/Resources/Documents/css/highlight.css; sourceTree = "<group>"; };
+		242107210739A4DB76679176A59E978D /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = jazzy.css; path = docs/css/jazzy.css; sourceTree = "<group>"; };
+		25EFAB6DBD63142CD030D4B4CE6E3C26 /* OrderPizzaSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrderPizzaSDK-prefix.pch"; sourceTree = "<group>"; };
+		2A64C6E88246D10E282E61D86E8D549E /* OrderManager.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = OrderManager.html; path = docs/Classes/OrderManager.html; sourceTree = "<group>"; };
+		2BD2F3E309288ABE0A16DCE7380362CC /* PizzaCrustSize.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = PizzaCrustSize.html; path = docs/Enums/PizzaCrustSize.html; sourceTree = "<group>"; };
+		2C145599F8F50792D3573472CA53F205 /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = search.json; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/search.json; sourceTree = "<group>"; };
+		2CEB61DD3AE96E93B4BE37A96576CEB3 /* OrderPizzaSDKCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OrderPizzaSDKCore.modulemap; sourceTree = "<group>"; };
+		2DD441D279AF911D48118FF44F66007E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = docs/docsets/OrderPizzaSDK.docset/Contents/Info.plist; sourceTree = "<group>"; };
+		3038DAE169DF8DEC21C5D0133AA84782 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jazzy.js; path = docs/js/jazzy.js; sourceTree = "<group>"; };
+		30393A1E6C61C8463DDB3F2E85E923F2 /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Classes.html; path = docs/docsets/OrderPizzaSDK.docset/Contents/Resources/Documents/Classes.html; sourceTree = "<group>"; };
+		30B6FA17C7706CAC54CA11008A90ECDE /* docSet.dsidx */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = docSet.dsidx; path = docs/docsets/OrderPizzaSDK.docset/Contents/Resources/docSet.dsidx; sourceTree = "<group>"; };
+		3C4CB5082604BCBB0EC187DFAE86DBE1 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = highlight.css; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/css/highlight.css; sourceTree = "<group>"; };
+		3F4809C6BD2975084A83CAB148436E55 /* Structs.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Structs.html; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/Structs.html; sourceTree = "<group>"; };
+		40A536A521161EACBA6CAF431DA2990C /* OrderPizzaSDKCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrderPizzaSDKCore-umbrella.h"; sourceTree = "<group>"; };
+		45952D4107F5AF97C91AC8069F1D7B20 /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/img/carat.png; sourceTree = "<group>"; };
+		45DC64FE14C951284D67F3D867D2357E /* PizzaOrderManager.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = PizzaOrderManager.html; path = docs/docsets/OrderPizzaSDK.docset/Contents/Resources/Documents/Classes/PizzaOrderManager.html; sourceTree = "<group>"; };
+		477272FD34ECE237062961B593E3BDA3 /* PizzaCrust.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = PizzaCrust.html; path = docs/Structs/PizzaCrust.html; sourceTree = "<group>"; };
+		47903E19C1007FBD2168C9CF3AAD2DF7 /* Pods-OrderPizzaSDKDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OrderPizzaSDKDemo.modulemap"; sourceTree = "<group>"; };
+		47DCADD558CDA519B142C8D82CDE0609 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jazzy.js; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/js/jazzy.js; sourceTree = "<group>"; };
+		4A423E46F9E8B8230CFFA6B6C74E6175 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jazzy.js; path = docs/js/jazzy.js; sourceTree = "<group>"; };
+		4BE31363B2BD688A9EB29CD56F022BB2 /* Pizza.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pizza.swift; path = Sources/OrderPizzaSDKCore/Pizza.swift; sourceTree = "<group>"; };
+		4FF1A02EF72397A7C12FF47235ECB7F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		510D4842185FB5C79685EB73B5FBF0F7 /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = jazzy.css; path = docs/docsets/OrderPizzaSDK.docset/Contents/Resources/Documents/css/jazzy.css; sourceTree = "<group>"; };
+		5235433C7CE096D84064A54500231834 /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = jazzy.css; path = docs/css/jazzy.css; sourceTree = "<group>"; };
+		5266D6BFAF083631306E391C0E5940C0 /* OrderPizzaSDKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderPizzaSDKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		535AD7F0B55749B614401EA2EB11DF41 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = badge.svg; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/badge.svg; sourceTree = "<group>"; };
+		539B0D1FF1F45801C1A1E0DDA45C5932 /* OrderPizzaSDKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderPizzaSDKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5437A7F33A2E689ADA032E443A41869A /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = undocumented.json; path = docs/undocumented.json; sourceTree = "<group>"; };
+		559B21411D7D74FABA9BE996FC82E522 /* PizzaSections.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PizzaSections.swift; sourceTree = "<group>"; };
+		5781DE2476F2B7CF221D3DFDDEA16B2B /* OrderPizzaSDKCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OrderPizzaSDKCore-dummy.m"; sourceTree = "<group>"; };
+		5AC7F327289EA32FECAE90DD8E5468D8 /* Result.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Result.html; path = docs/Enums/Result.html; sourceTree = "<group>"; };
+		5C1CA75671C4AF4ADA4C346BB821E557 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = index.html; path = docs/index.html; sourceTree = "<group>"; };
+		5CB6D510CA7823D86565971850DD6B27 /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Enums.html; path = docs/Enums.html; sourceTree = "<group>"; };
+		5D5FE580616FB9EF1869A5EA5EF429DE /* OrderPizzaSDKCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = OrderPizzaSDKCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5E6C5D35CD27DA2D1606E4EA9924B0DD /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/docsets/OrderPizzaSDK.docset/Contents/Resources/Documents/img/dash.png; sourceTree = "<group>"; };
+		6087101AEB87309FC0D0105B64CB856A /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = index.html; path = docs/index.html; sourceTree = "<group>"; };
+		647291C78BE5D38824D6CD4FAF853889 /* PizzaEditCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PizzaEditCell.swift; sourceTree = "<group>"; };
+		647ABD6BAADDA3D847D7BD4B9F7C5AD2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65A85F534026C740D727657BEEDD7020 /* Pizza.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Pizza.html; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/Structs/Pizza.html; sourceTree = "<group>"; };
+		66395A46250FB77277772C97D4597CE8 /* PizzaFlavor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PizzaFlavor.swift; path = Sources/OrderPizzaSDKCore/PizzaFlavor.swift; sourceTree = "<group>"; };
+		66435C763E700C609DD0ADF2472972D3 /* Reusable.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Reusable.html; path = docs/docsets/OrderPizzaSDK.docset/Contents/Resources/Documents/Protocols/Reusable.html; sourceTree = "<group>"; };
+		6765879095F754FB3FAD4412D606B4C2 /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Classes.html; path = docs/Classes.html; sourceTree = "<group>"; };
+		6CCE5D5093802869C6831DD1B5BCD21E /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = search.json; path = docs/docsets/OrderPizzaSDK.docset/Contents/Resources/Documents/search.json; sourceTree = "<group>"; };
+		71847F88A8FF9A518180B5CB33718B92 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = index.html; path = docs/docsets/OrderPizzaSDK.docset/Contents/Resources/Documents/index.html; sourceTree = "<group>"; };
+		73FAA79946AC1343B464C73D427DF80D /* PizzaCrust.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PizzaCrust.swift; path = Sources/OrderPizzaSDKCore/PizzaCrust.swift; sourceTree = "<group>"; };
+		7A1490FD59DBF9A382CD8A5A581EC0FE /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = undocumented.json; path = docs/undocumented.json; sourceTree = "<group>"; };
+		7A42D396FBCE3540D9D17E14D7697205 /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Classes.html; path = docs/Classes.html; sourceTree = "<group>"; };
+		7A9419EE0DB8F3AB4581C24510EAC21D /* Result.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Result.html; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/Classes/OrderManager/Result.html; sourceTree = "<group>"; };
+		7C438FFE3BD888AA1CD8473345079CA7 /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = search.json; path = docs/search.json; sourceTree = "<group>"; };
+		82AD649EB4AF35069BC1624996533C87 /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Protocols.html; path = docs/docsets/OrderPizzaSDK.docset/Contents/Resources/Documents/Protocols.html; sourceTree = "<group>"; };
+		839EB04EAC53DDD3643636048B145004 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/img/gh.png; sourceTree = "<group>"; };
+		8936BA1104E77570B09F1DAD228FB5ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB8B8382CB60EEE314F9BBF401AFA50 /* PizzaCrust.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = PizzaCrust.html; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/Structs/PizzaCrust.html; sourceTree = "<group>"; };
+		8B1EC20F887DE074CC6CC41365EA753E /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/img/carat.png; sourceTree = "<group>"; };
+		8B47140B31F5F9D7EE133F4D75002573 /* PizzaCrustType.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = PizzaCrustType.html; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/Enums/PizzaCrustType.html; sourceTree = "<group>"; };
+		8CC5D257BBD9085A2200A60BAF4414FA /* OrderPizzaSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OrderPizzaSDK.modulemap; sourceTree = "<group>"; };
+		8E99452A4628F75615A499640ADC70C1 /* Pods-OrderPizzaSDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OrderPizzaSDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F6A2258C25ADB97705B62DC6E2E0D04 /* OrderPizzaSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderPizzaSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA65F7CDB7D4A3D7063610E4382A000 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = docs/docsets/OrderPizzaSDK.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
+		8FBE312C60BAE591F60CDACCFB8EC9A4 /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/img/dash.png; sourceTree = "<group>"; };
+		90CC9C64CBBC9161A8DEE8A0A58C5AE3 /* Pizza.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Pizza.html; path = docs/Structs/Pizza.html; sourceTree = "<group>"; };
+		92335A0CD8DA8FB52A672AFDFA5808D2 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/img/gh.png; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96A00D009A203927151ED01E69E72DC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Info.plist; sourceTree = "<group>"; };
+		97C198629F3D8DD4701BB6B4B66C7606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9BFB6652CE12DFC726239B702E29EFAA /* PizzaFlavor.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = PizzaFlavor.html; path = docs/Enums/PizzaFlavor.html; sourceTree = "<group>"; };
+		9C0071F18288706B2B0D036127B883C6 /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Enums.html; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/Enums.html; sourceTree = "<group>"; };
+		9C32D9EEED6E1E7DB7F8CC9BA1BEC5BE /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jazzy.js; path = docs/docsets/OrderPizzaSDK.docset/Contents/Resources/Documents/js/jazzy.js; sourceTree = "<group>"; };
+		9D5361FB779CF37F956E25A1BAC19A45 /* Pods-OrderPizzaSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OrderPizzaSDKDemo-dummy.m"; sourceTree = "<group>"; };
+		A78BF4F6E1ED31E4A96B40C756E3168F /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/img/carat.png; sourceTree = "<group>"; };
+		AAC40B74CE819F1FCF448D2085AE0558 /* Pods-OrderPizzaSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrderPizzaSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AD5E74750859669CD5E5A08F9A8011DB /* OrderPizzaSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OrderPizzaSDK-dummy.m"; sourceTree = "<group>"; };
+		B5F11795F1A6A7FD486B59EC6FE6B796 /* OrderPizzaSDK.tgz */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = OrderPizzaSDK.tgz; path = docs/docsets/OrderPizzaSDK.tgz; sourceTree = "<group>"; };
+		B8EAE2908C232A66F1680FC770787877 /* Result.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Result.html; path = docs/docsets/OrderPizzaSDK.docset/Contents/Resources/Documents/Enums/Result.html; sourceTree = "<group>"; };
+		BD523ABFC9CAF53AC4BA77B2B42AC646 /* Result.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Result.html; path = docs/Classes/OrderManager/Result.html; sourceTree = "<group>"; };
+		BDB5975EE8CDD89C2CD9624A783541F8 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = badge.svg; path = docs/docsets/OrderPizzaSDK.docset/Contents/Resources/Documents/badge.svg; sourceTree = "<group>"; };
+		BE9534F2F3E68C9A8F80BB18C09603B4 /* PizzaOrderManager.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = PizzaOrderManager.html; path = docs/Classes/PizzaOrderManager.html; sourceTree = "<group>"; };
+		BF902A24FAF55142EB9BF7EDF6A06811 /* Pods_OrderPizzaSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrderPizzaSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F6BE1D1FC4BAEC478FC094819F5436 /* Pods-OrderPizzaSDKDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OrderPizzaSDKDemo-frameworks.sh"; sourceTree = "<group>"; };
+		C189F25D59DB0431CA0B361776308FB2 /* PizzaCrustType.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = PizzaCrustType.html; path = docs/Enums/PizzaCrustType.html; sourceTree = "<group>"; };
+		C19FE8EFF65F8051D7503F49DF93D8F4 /* OrderPizzaSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = OrderPizzaSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3FF009052EBB0A63643B00D9B7A487D /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = highlight.css; path = docs/css/highlight.css; sourceTree = "<group>"; };
+		C4D6C0FECF092F205AC0EC3ED4985E4A /* Pods-OrderPizzaSDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OrderPizzaSDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C830F4451DD795574B574A6750F58B4D /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Enums.html; path = docs/docsets/OrderPizzaSDK.docset/Contents/Resources/Documents/Enums.html; sourceTree = "<group>"; };
+		CAD83DC5FA5F6D54AD435508D339C44A /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = badge.svg; path = docs/badge.svg; sourceTree = "<group>"; };
+		CB5E314AFCFF10C0E1C0463ACB7CFD8D /* OrderManager.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = OrderManager.html; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/Classes/OrderManager.html; sourceTree = "<group>"; };
+		CDD3245B29D635B7F92E88C7ED0F5AB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1FAFE7FB4813C350636C7C986B3B7C /* PizzaViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PizzaViewController.swift; sourceTree = "<group>"; };
+		D329E75A510DF8E34E8F2490A968733E /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Enums.html; path = docs/Enums.html; sourceTree = "<group>"; };
+		D540B333FEE7E274658C1D10B4BEEBE4 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = badge.svg; path = docs/badge.svg; sourceTree = "<group>"; };
+		D609301241F0759CC3CE56BD499290BC /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = undocumented.json; path = docs/docsets/OrderPizzaSDK.docset/Contents/Resources/Documents/undocumented.json; sourceTree = "<group>"; };
+		D71D6D76697DC48DDA66E42A6004C4EB /* OrderPizzaSDKCore.tgz */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = OrderPizzaSDKCore.tgz; path = docs/docsets/OrderPizzaSDKCore.tgz; sourceTree = "<group>"; };
+		D7D6B333C7572BD776A1551B21E0BD4C /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = undocumented.json; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/undocumented.json; sourceTree = "<group>"; };
+		D962AB5239BE5354FCCB1C39611A28D4 /* Pods-OrderPizzaSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrderPizzaSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DC41E32018B2163974F3D6E635364E0F /* Reusable.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Reusable.html; path = docs/Protocols/Reusable.html; sourceTree = "<group>"; };
+		DCF3C6D7BD4BA2E1C04E0E82D4503DF2 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = index.html; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/index.html; sourceTree = "<group>"; };
+		DE8E4BC6E40DA8DB68B15543DFC9D535 /* OrderPizzaSDKCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrderPizzaSDKCore.xcconfig; sourceTree = "<group>"; };
+		E3A5EA244A4E4CCC13FFC8DA0B03A7DB /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = highlight.css; path = docs/css/highlight.css; sourceTree = "<group>"; };
+		E3DFFCE2A401ECCEEF511F09954FB678 /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/img/dash.png; sourceTree = "<group>"; };
+		E4DCFBD5D7C75B72003831B436A2894D /* PizzaCrustSize.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = PizzaCrustSize.html; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/Enums/PizzaCrustSize.html; sourceTree = "<group>"; };
+		E92B53BB1D9A5D7298FB319F5719A397 /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = jazzy.css; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/css/jazzy.css; sourceTree = "<group>"; };
+		EA7A301C513FCF4FB3D605FF6C85AAF5 /* Pods-OrderPizzaSDKDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OrderPizzaSDKDemo-resources.sh"; sourceTree = "<group>"; };
+		EB1DBF646FB86C3CB601EE97E09B9A27 /* Structs.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Structs.html; path = docs/Structs.html; sourceTree = "<group>"; };
+		F0052A4CB86ED82A067851EA947D89F2 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/img/gh.png; sourceTree = "<group>"; };
+		F12C56935D8D113DE0D0CE277AD91F8C /* ListPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListPickerViewController.swift; sourceTree = "<group>"; };
+		F367B86436DD67FEFC2B11DDF6061241 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/docsets/OrderPizzaSDK.docset/Contents/Resources/Documents/img/gh.png; sourceTree = "<group>"; };
+		F4A7B5A312E5C7D8122302C9570F3583 /* ListPickerItemCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListPickerItemCell.swift; sourceTree = "<group>"; };
+		F698B6BF4F1784C80D42BA7E0E53B8D6 /* OrderPizzaSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrderPizzaSDK.xcconfig; sourceTree = "<group>"; };
+		F7F4E7121575EDE0DCAB5F0436A8FB25 /* OrderPizzaSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrderPizzaSDK-umbrella.h"; sourceTree = "<group>"; };
+		F80029CA91DF5207248F3A934920E9FD /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = search.json; path = docs/search.json; sourceTree = "<group>"; };
+		F9470905986410B32AB032907ADFCEFB /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/docsets/OrderPizzaSDKCore.docset/Contents/Resources/Documents/img/dash.png; sourceTree = "<group>"; };
+		F96A7EC5E4BA7A140549D0F52F5DE396 /* Pods-OrderPizzaSDKDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OrderPizzaSDKDemo-umbrella.h"; sourceTree = "<group>"; };
+		FA00CCF176DA5464A15D71C4BC98F52D /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Protocols.html; path = docs/Protocols.html; sourceTree = "<group>"; };
+		FD4DF1267C3DF58241A3838B20935641 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = docs/js/jquery.min.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		442725A5937CCC36BB1F66E75C12CF6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07753753611CA9482D44D61466DCAC1F /* Foundation.framework in Frameworks */,
+				45FFBD9DAE79427E606BEA8E6B2F012A /* OrderPizzaSDKCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42CCB28EAB694BD208E3CD936AAC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0F129ED4D34E453D85F5201064D28E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7003D222D16DE3FC50B6983D9D77E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89013647663F285E89390E41CFF9B9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F99748471118875F981280F80FD3FEA /* OrderPizzaSDKCore */ = {
+			isa = PBXGroup;
+			children = (
+				0AD09CA4954BD6CDF2C827929642EA30 /* OrderManager.swift */,
+				4BE31363B2BD688A9EB29CD56F022BB2 /* Pizza.swift */,
+				73FAA79946AC1343B464C73D427DF80D /* PizzaCrust.swift */,
+				66395A46250FB77277772C97D4597CE8 /* PizzaFlavor.swift */,
+				2709B6BCD49B6314E14D9C98FF9867AF /* Pod */,
+				DF4E255A86033B477BF11839DFECAD26 /* Support Files */,
+			);
+			name = OrderPizzaSDKCore;
+			path = ../../OrderPizzaSDKCore;
+			sourceTree = "<group>";
+		};
+		13917DE00F106B47325D33BFA9176448 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FF39AE01414321C135BF9270CD844BC /* OrderPizzaSDK */,
+				0F99748471118875F981280F80FD3FEA /* OrderPizzaSDKCore */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2709B6BCD49B6314E14D9C98FF9867AF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CAD83DC5FA5F6D54AD435508D339C44A /* badge.svg */,
+				535AD7F0B55749B614401EA2EB11DF41 /* badge.svg */,
+				8B1EC20F887DE074CC6CC41365EA753E /* carat.png */,
+				A78BF4F6E1ED31E4A96B40C756E3168F /* carat.png */,
+				0E4E2AB9B194BC68BA742FC8076AD535 /* Classes.html */,
+				7A42D396FBCE3540D9D17E14D7697205 /* Classes.html */,
+				F9470905986410B32AB032907ADFCEFB /* dash.png */,
+				8FBE312C60BAE591F60CDACCFB8EC9A4 /* dash.png */,
+				0CA73A5EE975AA4BDC7E3CF848CC9707 /* docSet.dsidx */,
+				9C0071F18288706B2B0D036127B883C6 /* Enums.html */,
+				D329E75A510DF8E34E8F2490A968733E /* Enums.html */,
+				1C0E17E567009F3CC8FA695FC157C5E1 /* Error.html */,
+				037907DBFC6F73FC7A22B4C2A7A6D922 /* Error.html */,
+				839EB04EAC53DDD3643636048B145004 /* gh.png */,
+				F0052A4CB86ED82A067851EA947D89F2 /* gh.png */,
+				3C4CB5082604BCBB0EC187DFAE86DBE1 /* highlight.css */,
+				C3FF009052EBB0A63643B00D9B7A487D /* highlight.css */,
+				DCF3C6D7BD4BA2E1C04E0E82D4503DF2 /* index.html */,
+				5C1CA75671C4AF4ADA4C346BB821E557 /* index.html */,
+				96A00D009A203927151ED01E69E72DC0 /* Info.plist */,
+				5235433C7CE096D84064A54500231834 /* jazzy.css */,
+				E92B53BB1D9A5D7298FB319F5719A397 /* jazzy.css */,
+				4A423E46F9E8B8230CFFA6B6C74E6175 /* jazzy.js */,
+				47DCADD558CDA519B142C8D82CDE0609 /* jazzy.js */,
+				1943708B0820FC66A739AC523B3AD173 /* jquery.min.js */,
+				FD4DF1267C3DF58241A3838B20935641 /* jquery.min.js */,
+				2A64C6E88246D10E282E61D86E8D549E /* OrderManager.html */,
+				CB5E314AFCFF10C0E1C0463ACB7CFD8D /* OrderManager.html */,
+				5D5FE580616FB9EF1869A5EA5EF429DE /* OrderPizzaSDKCore.podspec */,
+				D71D6D76697DC48DDA66E42A6004C4EB /* OrderPizzaSDKCore.tgz */,
+				90CC9C64CBBC9161A8DEE8A0A58C5AE3 /* Pizza.html */,
+				65A85F534026C740D727657BEEDD7020 /* Pizza.html */,
+				8AB8B8382CB60EEE314F9BBF401AFA50 /* PizzaCrust.html */,
+				477272FD34ECE237062961B593E3BDA3 /* PizzaCrust.html */,
+				E4DCFBD5D7C75B72003831B436A2894D /* PizzaCrustSize.html */,
+				2BD2F3E309288ABE0A16DCE7380362CC /* PizzaCrustSize.html */,
+				8B47140B31F5F9D7EE133F4D75002573 /* PizzaCrustType.html */,
+				C189F25D59DB0431CA0B361776308FB2 /* PizzaCrustType.html */,
+				05F4C3D2C32A2465B3C33EC82CC8B58E /* PizzaFlavor.html */,
+				9BFB6652CE12DFC726239B702E29EFAA /* PizzaFlavor.html */,
+				4FF1A02EF72397A7C12FF47235ECB7F7 /* README.md */,
+				7A9419EE0DB8F3AB4581C24510EAC21D /* Result.html */,
+				BD523ABFC9CAF53AC4BA77B2B42AC646 /* Result.html */,
+				7C438FFE3BD888AA1CD8473345079CA7 /* search.json */,
+				2C145599F8F50792D3573472CA53F205 /* search.json */,
+				EB1DBF646FB86C3CB601EE97E09B9A27 /* Structs.html */,
+				3F4809C6BD2975084A83CAB148436E55 /* Structs.html */,
+				D7D6B333C7572BD776A1551B21E0BD4C /* undocumented.json */,
+				5437A7F33A2E689ADA032E443A41869A /* undocumented.json */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2D57D7051E55C75D058CA2F13C60EE1B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F4A7B5A312E5C7D8122302C9570F3583 /* ListPickerItemCell.swift */,
+				213CE934C520EA670EA8515E59CD9A85 /* PizzaDetailCell.swift */,
+				647291C78BE5D38824D6CD4FAF853889 /* PizzaEditCell.swift */,
+				14AEDCA7F228CD37BFBDCA7D89CF3CBC /* PriceCell.swift */,
+			);
+			name = Cells;
+			path = Sources/OrderPizzaSDK/Cells;
+			sourceTree = "<group>";
+		};
+		3EBF92BB91C04C97A51CC1BBB1112607 /* PizzaView */ = {
+			isa = PBXGroup;
+			children = (
+				559B21411D7D74FABA9BE996FC82E522 /* PizzaSections.swift */,
+				CE1FAFE7FB4813C350636C7C986B3B7C /* PizzaViewController.swift */,
+			);
+			name = PizzaView;
+			path = Sources/OrderPizzaSDK/PizzaView;
+			sourceTree = "<group>";
+		};
+		3FF39AE01414321C135BF9270CD844BC /* OrderPizzaSDK */ = {
+			isa = PBXGroup;
+			children = (
+				008172AA91E08075910EC66D7C0311A5 /* PizzaOrderManager.swift */,
+				2D57D7051E55C75D058CA2F13C60EE1B /* Cells */,
+				9EA7C3E973299187626839C98A50A724 /* PizzaDetails */,
+				3EBF92BB91C04C97A51CC1BBB1112607 /* PizzaView */,
+				CF3EB86735175813B08E8407F8544AAE /* Pod */,
+				835F0E8FBF51653930C52E673A94A8F6 /* Support Files */,
+			);
+			name = OrderPizzaSDK;
+			path = ../../OrderPizzaSDK;
+			sourceTree = "<group>";
+		};
+		6021DACADA4AAB10836FA7AC5B26D5D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				539B0D1FF1F45801C1A1E0DDA45C5932 /* OrderPizzaSDKCore.framework */,
+				D365B832C3E1973505B3E57D15948D52 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				13917DE00F106B47325D33BFA9176448 /* Development Pods */,
+				6021DACADA4AAB10836FA7AC5B26D5D3 /* Frameworks */,
+				EAEA22EEAA454B270CFDBA9EB9016671 /* Products */,
+				9342896125A32529CE3495AC7530B3E0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		835F0E8FBF51653930C52E673A94A8F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDD3245B29D635B7F92E88C7ED0F5AB9 /* Info.plist */,
+				8CC5D257BBD9085A2200A60BAF4414FA /* OrderPizzaSDK.modulemap */,
+				F698B6BF4F1784C80D42BA7E0E53B8D6 /* OrderPizzaSDK.xcconfig */,
+				AD5E74750859669CD5E5A08F9A8011DB /* OrderPizzaSDK-dummy.m */,
+				25EFAB6DBD63142CD030D4B4CE6E3C26 /* OrderPizzaSDK-prefix.pch */,
+				F7F4E7121575EDE0DCAB5F0436A8FB25 /* OrderPizzaSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../OrderPizzaSDKDemo/Pods/Target Support Files/OrderPizzaSDK";
+			sourceTree = "<group>";
+		};
+		9342896125A32529CE3495AC7530B3E0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6310B72DD1C95D8B7A93C54A0B51418 /* Pods-OrderPizzaSDKDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9EA7C3E973299187626839C98A50A724 /* PizzaDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F12C56935D8D113DE0D0CE277AD91F8C /* ListPickerViewController.swift */,
+			);
+			name = PizzaDetails;
+			path = Sources/OrderPizzaSDK/PizzaDetails;
+			sourceTree = "<group>";
+		};
+		CF3EB86735175813B08E8407F8544AAE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D540B333FEE7E274658C1D10B4BEEBE4 /* badge.svg */,
+				BDB5975EE8CDD89C2CD9624A783541F8 /* badge.svg */,
+				45952D4107F5AF97C91AC8069F1D7B20 /* carat.png */,
+				0A4A2957745B15781AA1FC635130B127 /* carat.png */,
+				6765879095F754FB3FAD4412D606B4C2 /* Classes.html */,
+				30393A1E6C61C8463DDB3F2E85E923F2 /* Classes.html */,
+				E3DFFCE2A401ECCEEF511F09954FB678 /* dash.png */,
+				5E6C5D35CD27DA2D1606E4EA9924B0DD /* dash.png */,
+				30B6FA17C7706CAC54CA11008A90ECDE /* docSet.dsidx */,
+				5CB6D510CA7823D86565971850DD6B27 /* Enums.html */,
+				C830F4451DD795574B574A6750F58B4D /* Enums.html */,
+				92335A0CD8DA8FB52A672AFDFA5808D2 /* gh.png */,
+				F367B86436DD67FEFC2B11DDF6061241 /* gh.png */,
+				E3A5EA244A4E4CCC13FFC8DA0B03A7DB /* highlight.css */,
+				226E8EC5D96F221CBCA076A2E4BDA8FA /* highlight.css */,
+				71847F88A8FF9A518180B5CB33718B92 /* index.html */,
+				6087101AEB87309FC0D0105B64CB856A /* index.html */,
+				2DD441D279AF911D48118FF44F66007E /* Info.plist */,
+				510D4842185FB5C79685EB73B5FBF0F7 /* jazzy.css */,
+				242107210739A4DB76679176A59E978D /* jazzy.css */,
+				3038DAE169DF8DEC21C5D0133AA84782 /* jazzy.js */,
+				9C32D9EEED6E1E7DB7F8CC9BA1BEC5BE /* jazzy.js */,
+				8FA65F7CDB7D4A3D7063610E4382A000 /* jquery.min.js */,
+				123893B78497372E5C1FC4D49958D2F3 /* jquery.min.js */,
+				C19FE8EFF65F8051D7503F49DF93D8F4 /* OrderPizzaSDK.podspec */,
+				B5F11795F1A6A7FD486B59EC6FE6B796 /* OrderPizzaSDK.tgz */,
+				BE9534F2F3E68C9A8F80BB18C09603B4 /* PizzaOrderManager.html */,
+				45DC64FE14C951284D67F3D867D2357E /* PizzaOrderManager.html */,
+				82AD649EB4AF35069BC1624996533C87 /* Protocols.html */,
+				FA00CCF176DA5464A15D71C4BC98F52D /* Protocols.html */,
+				B8EAE2908C232A66F1680FC770787877 /* Result.html */,
+				5AC7F327289EA32FECAE90DD8E5468D8 /* Result.html */,
+				DC41E32018B2163974F3D6E635364E0F /* Reusable.html */,
+				66435C763E700C609DD0ADF2472972D3 /* Reusable.html */,
+				6CCE5D5093802869C6831DD1B5BCD21E /* search.json */,
+				F80029CA91DF5207248F3A934920E9FD /* search.json */,
+				7A1490FD59DBF9A382CD8A5A581EC0FE /* undocumented.json */,
+				D609301241F0759CC3CE56BD499290BC /* undocumented.json */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D365B832C3E1973505B3E57D15948D52 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				97C198629F3D8DD4701BB6B4B66C7606 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DF4E255A86033B477BF11839DFECAD26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8936BA1104E77570B09F1DAD228FB5ED /* Info.plist */,
+				2CEB61DD3AE96E93B4BE37A96576CEB3 /* OrderPizzaSDKCore.modulemap */,
+				DE8E4BC6E40DA8DB68B15543DFC9D535 /* OrderPizzaSDKCore.xcconfig */,
+				5781DE2476F2B7CF221D3DFDDEA16B2B /* OrderPizzaSDKCore-dummy.m */,
+				2234EFB757DBC2E10005B3C3EDE6F1EE /* OrderPizzaSDKCore-prefix.pch */,
+				40A536A521161EACBA6CAF431DA2990C /* OrderPizzaSDKCore-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../OrderPizzaSDKDemo/Pods/Target Support Files/OrderPizzaSDKCore";
+			sourceTree = "<group>";
+		};
+		E6310B72DD1C95D8B7A93C54A0B51418 /* Pods-OrderPizzaSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				647ABD6BAADDA3D847D7BD4B9F7C5AD2 /* Info.plist */,
+				47903E19C1007FBD2168C9CF3AAD2DF7 /* Pods-OrderPizzaSDKDemo.modulemap */,
+				C4D6C0FECF092F205AC0EC3ED4985E4A /* Pods-OrderPizzaSDKDemo-acknowledgements.markdown */,
+				8E99452A4628F75615A499640ADC70C1 /* Pods-OrderPizzaSDKDemo-acknowledgements.plist */,
+				9D5361FB779CF37F956E25A1BAC19A45 /* Pods-OrderPizzaSDKDemo-dummy.m */,
+				C0F6BE1D1FC4BAEC478FC094819F5436 /* Pods-OrderPizzaSDKDemo-frameworks.sh */,
+				EA7A301C513FCF4FB3D605FF6C85AAF5 /* Pods-OrderPizzaSDKDemo-resources.sh */,
+				F96A7EC5E4BA7A140549D0F52F5DE396 /* Pods-OrderPizzaSDKDemo-umbrella.h */,
+				D962AB5239BE5354FCCB1C39611A28D4 /* Pods-OrderPizzaSDKDemo.debug.xcconfig */,
+				AAC40B74CE819F1FCF448D2085AE0558 /* Pods-OrderPizzaSDKDemo.release.xcconfig */,
+			);
+			name = "Pods-OrderPizzaSDKDemo";
+			path = "Target Support Files/Pods-OrderPizzaSDKDemo";
+			sourceTree = "<group>";
+		};
+		EAEA22EEAA454B270CFDBA9EB9016671 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F6A2258C25ADB97705B62DC6E2E0D04 /* OrderPizzaSDK.framework */,
+				5266D6BFAF083631306E391C0E5940C0 /* OrderPizzaSDKCore.framework */,
+				BF902A24FAF55142EB9BF7EDF6A06811 /* Pods_OrderPizzaSDKDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		705610009302E79531F6D04909D53948 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433FFEC251290065DF17B339244E6A43 /* OrderPizzaSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3368EB39D425494B83F36920E4DA867 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE6BE338AEC0CA81CFECFE878EDF498 /* Pods-OrderPizzaSDKDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7EB3A8BDAE45BF600D9BD54CD21E6AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C95D05B96D04447781FD398B56EE5A2 /* OrderPizzaSDKCore-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B85E2EC8A0EA193898BA304477613DAD /* Pods-OrderPizzaSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4D43A9F617FED248A023B5ECC4A13E /* Build configuration list for PBXNativeTarget "Pods-OrderPizzaSDKDemo" */;
+			buildPhases = (
+				32DE9E93E6C3B087E49A5696D58C6F20 /* Sources */,
+				AD42CCB28EAB694BD208E3CD936AAC70 /* Frameworks */,
+				A3368EB39D425494B83F36920E4DA867 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3DF2BD9CADCCE74CE106C987BCFE745 /* PBXTargetDependency */,
+				932A7A48D7F40F1427BF576E32C1B12E /* PBXTargetDependency */,
+			);
+			name = "Pods-OrderPizzaSDKDemo";
+			productName = "Pods-OrderPizzaSDKDemo";
+			productReference = BF902A24FAF55142EB9BF7EDF6A06811 /* Pods_OrderPizzaSDKDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6C7725ECB6AC0EEF961BBACC59692EF /* OrderPizzaSDKCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4375A5F4139357E30EE940DAF2C4075 /* Build configuration list for PBXNativeTarget "OrderPizzaSDKCore" */;
+			buildPhases = (
+				E2915B7AD2567F94931B3EFFAAD43734 /* Sources */,
+				C7003D222D16DE3FC50B6983D9D77E1A /* Frameworks */,
+				F7EB3A8BDAE45BF600D9BD54CD21E6AE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderPizzaSDKCore;
+			productName = OrderPizzaSDKCore;
+			productReference = 5266D6BFAF083631306E391C0E5940C0 /* OrderPizzaSDKCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8759DC8FCE7892307A9CE713C104183 /* OrderPizzaSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932860FF5A5E4A3BFD5DE457B9C254C9 /* Build configuration list for PBXNativeTarget "OrderPizzaSDK" */;
+			buildPhases = (
+				13318708A687313BFDC7987F45636B3D /* Sources */,
+				442725A5937CCC36BB1F66E75C12CF6B /* Frameworks */,
+				705610009302E79531F6D04909D53948 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44F6C1A0AF02E1AAF499778ECA689F39 /* PBXTargetDependency */,
+			);
+			name = OrderPizzaSDK;
+			productName = OrderPizzaSDK;
+			productReference = 8F6A2258C25ADB97705B62DC6E2E0D04 /* OrderPizzaSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EAEA22EEAA454B270CFDBA9EB9016671 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8759DC8FCE7892307A9CE713C104183 /* OrderPizzaSDK */,
+				E6C7725ECB6AC0EEF961BBACC59692EF /* OrderPizzaSDKCore */,
+				B85E2EC8A0EA193898BA304477613DAD /* Pods-OrderPizzaSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13318708A687313BFDC7987F45636B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253066AEFABE00B3DE3D3DAADDCCE87F /* ListPickerItemCell.swift in Sources */,
+				22AF8005C51F4EAFD3A092A39EA2290B /* ListPickerViewController.swift in Sources */,
+				F52A543AC5A2063E96CF426AF4FB8F98 /* OrderPizzaSDK-dummy.m in Sources */,
+				E3BB329F5562CF3565790A1662943253 /* PizzaDetailCell.swift in Sources */,
+				C378A1D0AD10F8A4692C6F0B577C0740 /* PizzaEditCell.swift in Sources */,
+				F6AA21392D965EC86F49864EB98C1402 /* PizzaOrderManager.swift in Sources */,
+				0E0CB923869C14C251DA28B79237AEE8 /* PizzaSections.swift in Sources */,
+				F54CEEEF560FFE23BD8A493ADFFC7CBB /* PizzaViewController.swift in Sources */,
+				7A69E948E9FE58297BC90562254752C8 /* PriceCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DE9E93E6C3B087E49A5696D58C6F20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F55B5C96BDF85DDBF14FA148601CF0 /* Pods-OrderPizzaSDKDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2915B7AD2567F94931B3EFFAAD43734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1C75CB3225C2D002EB06689CFF5A02 /* OrderManager.swift in Sources */,
+				E25794713615BF025ECF7F20A69199B5 /* OrderPizzaSDKCore-dummy.m in Sources */,
+				565FDEC87C6EE03F19DB81C792F2D2B3 /* Pizza.swift in Sources */,
+				9A3B8248E36329DD762682A0CB87F01E /* PizzaCrust.swift in Sources */,
+				A2C1F753C1C0F2F67A888FA64D70FE54 /* PizzaFlavor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44F6C1A0AF02E1AAF499778ECA689F39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OrderPizzaSDKCore;
+			target = E6C7725ECB6AC0EEF961BBACC59692EF /* OrderPizzaSDKCore */;
+			targetProxy = 003324E0FB48EEC95D85AF90F6B67951 /* PBXContainerItemProxy */;
+		};
+		932A7A48D7F40F1427BF576E32C1B12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OrderPizzaSDKCore;
+			target = E6C7725ECB6AC0EEF961BBACC59692EF /* OrderPizzaSDKCore */;
+			targetProxy = F2DD924F20E7419C59A428DD5829C9BB /* PBXContainerItemProxy */;
+		};
+		B3DF2BD9CADCCE74CE106C987BCFE745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OrderPizzaSDK;
+			target = E8759DC8FCE7892307A9CE713C104183 /* OrderPizzaSDK */;
+			targetProxy = 2BE1CC4C7FE19607A67A8CB7BA3A5A95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0403248019EA1B165DEA18AD0B9D5734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAC40B74CE819F1FCF448D2085AE0558 /* Pods-OrderPizzaSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OrderPizzaSDKDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OrderPizzaSDKDemo/Pods-OrderPizzaSDKDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1BD5627F1BB83E13929922C3F00856EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE8E4BC6E40DA8DB68B15543DFC9D535 /* OrderPizzaSDKCore.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OrderPizzaSDKCore/OrderPizzaSDKCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OrderPizzaSDKCore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OrderPizzaSDKCore/OrderPizzaSDKCore.modulemap";
+				PRODUCT_MODULE_NAME = OrderPizzaSDKCore;
+				PRODUCT_NAME = OrderPizzaSDKCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345150F0582484CF527C81E6823BB1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D962AB5239BE5354FCCB1C39611A28D4 /* Pods-OrderPizzaSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OrderPizzaSDKDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OrderPizzaSDKDemo/Pods-OrderPizzaSDKDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C944DF6CB8AB8DF0FDCA3A8F6C434FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE8E4BC6E40DA8DB68B15543DFC9D535 /* OrderPizzaSDKCore.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OrderPizzaSDKCore/OrderPizzaSDKCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OrderPizzaSDKCore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OrderPizzaSDKCore/OrderPizzaSDKCore.modulemap";
+				PRODUCT_MODULE_NAME = OrderPizzaSDKCore;
+				PRODUCT_NAME = OrderPizzaSDKCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A1C6740D5B2E3C8CEF85ED8E02BCA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F698B6BF4F1784C80D42BA7E0E53B8D6 /* OrderPizzaSDK.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OrderPizzaSDK/OrderPizzaSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OrderPizzaSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OrderPizzaSDK/OrderPizzaSDK.modulemap";
+				PRODUCT_MODULE_NAME = OrderPizzaSDK;
+				PRODUCT_NAME = OrderPizzaSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD8324D57CD462761E218EEA4EA91EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F1937E2DF543F1F4FC35DEA24D8B22EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F698B6BF4F1784C80D42BA7E0E53B8D6 /* OrderPizzaSDK.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OrderPizzaSDK/OrderPizzaSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OrderPizzaSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OrderPizzaSDK/OrderPizzaSDK.modulemap";
+				PRODUCT_MODULE_NAME = OrderPizzaSDK;
+				PRODUCT_NAME = OrderPizzaSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */,
+				CD8324D57CD462761E218EEA4EA91EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D4D43A9F617FED248A023B5ECC4A13E /* Build configuration list for PBXNativeTarget "Pods-OrderPizzaSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345150F0582484CF527C81E6823BB1AF /* Debug */,
+				0403248019EA1B165DEA18AD0B9D5734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932860FF5A5E4A3BFD5DE457B9C254C9 /* Build configuration list for PBXNativeTarget "OrderPizzaSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1937E2DF543F1F4FC35DEA24D8B22EF /* Debug */,
+				9A1C6740D5B2E3C8CEF85ED8E02BCA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4375A5F4139357E30EE940DAF2C4075 /* Build configuration list for PBXNativeTarget "OrderPizzaSDKCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BD5627F1BB83E13929922C3F00856EF /* Debug */,
+				6C944DF6CB8AB8DF0FDCA3A8F6C434FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
