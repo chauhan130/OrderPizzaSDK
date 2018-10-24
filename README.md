@@ -3,7 +3,7 @@
 # Developer Friendly Pizza SDK!
 
 There are three projects:
-1. `OrderPizzaSDKCore` : Has core code to actually order the pizza. It does not have any platform specific code, so in future we could use this for Mac OS, Watch OS, TV OS, etc. More information in it's own [ReadMe](./OrderPizzaSDKCore/README.md)  is a dependency manager for Cocoa projects.  file.  ![Documentation](./OrderPizzaSDKCore/docs/badge.svg)
+1. `OrderPizzaSDKCore` : Has core code to actually order the pizza. It does not have any platform specific code, so in future we could use this for Mac OS, Watch OS, TV OS, etc. More information in it's own [ReadMe](./OrderPizzaSDKCore/README.md) file.  ![Documentation](./OrderPizzaSDKCore/docs/badge.svg)
  2. `OrderPizzaSDK` : Provides iOS UI interface to `OrderPizzaSDKCore` framework.   More information in its own  [ReadMe](./OrderPizzaSDK/README.md) file. ![Documentation](./OrderPizzaSDK/docs/badge.svg)
  3. `OrderPizzaSDKDemo` : Demonstrates how to use the `OrderPizzaSDK`.  
 
